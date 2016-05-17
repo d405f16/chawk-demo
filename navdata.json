@@ -1,1046 +1,158 @@
 {
-  header: 1432778632,
-  droneState: {
-    flying: 0,
-    videoEnabled: 0,
-    visionEnabled: 0,
-    controlAlgorithm: 0,
-    altitudeControlAlgorithm: 1,
-    startButtonState: 0,
-    controlCommandAck: 0,
-    cameraReady: 1,
-    travellingEnabled: 0,
-    usbReady: 0,
-    navdataDemo: 1,
-    navdataBootstrap: 0,
-    motorProblem: 0,
-    communicationLost: 0,
-    softwareFault: 0,
-    lowBattery: 0,
-    userEmergencyLanding: 0,
-    timerElapsed: 0,
-    MagnometerNeedsCalibration: 0,
-    anglesOutOfRange: 0,
-    tooMuchWind: 0,
-    ultrasonicSensorDeaf: 0,
-    cutoutDetected: 0,
-    picVersionNumberOk: 1,
-    atCodecThreadOn: 1,
-    navdataThreadOn: 1,
-    videoThreadOn: 1,
-    acquisitionThreadOn: 1,
-    controlWatchdogDelay: 0,
-    adcWatchdogDelay: 0,
-    comWatchdogProblem: 1,
-    emergencyLanding: 0
+  "header": 1432778632,
+  "droneState": {
+    "flying": 0,
+    "videoEnabled": 0,
+    "visionEnabled": 0,
+    "controlAlgorithm": 0,
+    "altitudeControlAlgorithm": 1,
+    "startButtonState": 0,
+    "controlCommandAck": 0,
+    "cameraReady": 1,
+    "travellingEnabled": 0,
+    "usbReady": 0,
+    "navdataDemo": 1,
+    "navdataBootstrap": 0,
+    "motorProblem": 0,
+    "communicationLost": 0,
+    "softwareFault": 0,
+    "lowBattery": 0,
+    "userEmergencyLanding": 0,
+    "timerElapsed": 0,
+    "MagnometerNeedsCalibration": 0,
+    "anglesOutOfRange": 0,
+    "tooMuchWind": 0,
+    "ultrasonicSensorDeaf": 0,
+    "cutoutDetected": 0,
+    "picVersionNumberOk": 1,
+    "atCodecThreadOn": 1,
+    "navdataThreadOn": 1,
+    "videoThreadOn": 1,
+    "acquisitionThreadOn": 1,
+    "controlWatchdogDelay": 0,
+    "adcWatchdogDelay": 0,
+    "comWatchdogProblem": 1,
+    "emergencyLanding": 0
   },
-  sequenceNumber: 2705,
-  visionFlag: 0,
-  demo: {
-    controlState: 'CTRL_LANDED',
-    flyState: 'FLYING_OK',
-    batteryPercentage: 91,
-    rotation: {
-      frontBack: 2.246,
-      pitch: 2.246,
-      theta: 2.246,
-      y: 2.246,
-      leftRight: -0.611,
-      roll: -0.611,
-      phi: -0.611,
-      x: -0.611,
-      clockwise: 100.084,
-      yaw: 100.084,
-      psi: 100.084,
-      z: 100.084
+  "sequenceNumber": 2705,
+  "visionFlag": 0,
+  "demo": {
+    "controlState": "CTRL_LANDED",
+    "flyState": "FLYING_OK",
+    "batteryPercentage": 91,
+    "rotation": {
+      "frontBack": 2.246,
+      "pitch": 2.246,
+      "theta": 2.246,
+      "y": 2.246,
+      "leftRight": -0.611,
+      "roll": -0.611,
+      "phi": -0.611,
+      "x": -0.611,
+      "clockwise": 100.084,
+      "yaw": 100.084,
+      "psi": 100.084,
+      "z": 100.084
     },
-    frontBackDegrees: 2.246,
-    leftRightDegrees: -0.611,
-    clockwiseDegrees: 100.084,
-    altitude: 0,
-    altitudeMeters: 0,
-    velocity: {
-      x: 0,
-      y: 0,
-      z: 0
+    "frontBackDegrees": 2.246,
+    "leftRightDegrees": -0.611,
+    "clockwiseDegrees": 100.084,
+    "altitude": 0,
+    "altitudeMeters": 0,
+    "velocity": {
+      "x": 0,
+      "y": 0,
+      "z": 0
     },
-    xVelocity: 0,
-    yVelocity: 0,
-    zVelocity: 0,
-    frameIndex: 0,
-    detection: {
-      camera: [
-        Object
+    "xVelocity": 0,
+    "yVelocity": 0,
+    "zVelocity": 0,
+    "frameIndex": 0,
+    "detection": {
+      "camera": [
+        "Object"
       ],
-      tagIndex: 0
+      "tagIndex": 0
     },
-    drone: {
-      camera: [
-        Object
+    "drone": {
+      "camera": [
+        "Object"
       ]
     }
   },
-  visionDetect: {
-    nbDetected: 0,
-    type: [
+  "visionDetect": {
+    "nbDetected": 0,
+    "type": [
       0,
       0,
       0,
       0
     ],
-    xc: [
+    "xc": [
       0,
       0,
       0,
       0
     ],
-    yc: [
+    "yc": [
       0,
       0,
       0,
       0
     ],
-    width: [
+    "width": [
       0,
       0,
       0,
       0
     ],
-    height: [
+    "height": [
       0,
       0,
       0,
       0
     ],
-    dist: [
+    "dist": [
       0,
       0,
       0,
       0
     ],
-    orientationAngle: [
+    "orientationAngle": [
       0,
       0,
       0,
       0
     ],
-    rotation: [
+    "rotation": [
       [
-        Object
+        "Object"
       ],
       [
-        Object
+        "Object"
       ],
       [
-        Object
+        "Object"
       ],
       [
-        Object
+        "Object"
       ]
     ],
-    translation: [
+    "translation": [
       [
-        Object
+        "Object"
       ],
       [
-        Object
+        "Object"
       ],
       [
-        Object
+        "Object"
       ],
       [
-        Object
+        "Object"
       ]
     ],
-    cameraSource: [
-      0,
-      0,
-      0,
-      0
-    ]
-  }
-}
-{
-  header: 1432778633,
-  droneState: {
-    flying: 0,
-    videoEnabled: 0,
-    visionEnabled: 0,
-    controlAlgorithm: 0,
-    altitudeControlAlgorithm: 1,
-    startButtonState: 0,
-    controlCommandAck: 1,
-    cameraReady: 1,
-    travellingEnabled: 0,
-    usbReady: 0,
-    navdataDemo: 1,
-    navdataBootstrap: 0,
-    motorProblem: 0,
-    communicationLost: 0,
-    softwareFault: 0,
-    lowBattery: 0,
-    userEmergencyLanding: 0,
-    timerElapsed: 0,
-    MagnometerNeedsCalibration: 0,
-    anglesOutOfRange: 0,
-    tooMuchWind: 0,
-    ultrasonicSensorDeaf: 0,
-    cutoutDetected: 0,
-    picVersionNumberOk: 1,
-    atCodecThreadOn: 1,
-    navdataThreadOn: 1,
-    videoThreadOn: 1,
-    acquisitionThreadOn: 1,
-    controlWatchdogDelay: 0,
-    adcWatchdogDelay: 0,
-    comWatchdogProblem: 0,
-    emergencyLanding: 0
-  },
-  sequenceNumber: 2706,
-  visionFlag: 0
-}
-{
-  header: 1432778632,
-  droneState: {
-    flying: 0,
-    videoEnabled: 0,
-    visionEnabled: 0,
-    controlAlgorithm: 0,
-    altitudeControlAlgorithm: 1,
-    startButtonState: 0,
-    controlCommandAck: 1,
-    cameraReady: 1,
-    travellingEnabled: 0,
-    usbReady: 0,
-    navdataDemo: 1,
-    navdataBootstrap: 0,
-    motorProblem: 0,
-    communicationLost: 0,
-    softwareFault: 0,
-    lowBattery: 0,
-    userEmergencyLanding: 0,
-    timerElapsed: 0,
-    MagnometerNeedsCalibration: 0,
-    anglesOutOfRange: 0,
-    tooMuchWind: 0,
-    ultrasonicSensorDeaf: 0,
-    cutoutDetected: 0,
-    picVersionNumberOk: 1,
-    atCodecThreadOn: 1,
-    navdataThreadOn: 1,
-    videoThreadOn: 1,
-    acquisitionThreadOn: 1,
-    controlWatchdogDelay: 0,
-    adcWatchdogDelay: 0,
-    comWatchdogProblem: 0,
-    emergencyLanding: 0
-  },
-  sequenceNumber: 2707,
-  visionFlag: 0,
-  demo: {
-    controlState: 'CTRL_LANDED',
-    flyState: 'FLYING_OK',
-    batteryPercentage: 91,
-    rotation: {
-      frontBack: 2.251,
-      pitch: 2.251,
-      theta: 2.251,
-      y: 2.251,
-      leftRight: -0.612,
-      roll: -0.612,
-      phi: -0.612,
-      x: -0.612,
-      clockwise: 100.087,
-      yaw: 100.087,
-      psi: 100.087,
-      z: 100.087
-    },
-    frontBackDegrees: 2.251,
-    leftRightDegrees: -0.612,
-    clockwiseDegrees: 100.087,
-    altitude: 0,
-    altitudeMeters: 0,
-    velocity: {
-      x: 0,
-      y: 0,
-      z: 0
-    },
-    xVelocity: 0,
-    yVelocity: 0,
-    zVelocity: 0,
-    frameIndex: 0,
-    detection: {
-      camera: [
-        Object
-      ],
-      tagIndex: 0
-    },
-    drone: {
-      camera: [
-        Object
-      ]
-    }
-  },
-  visionDetect: {
-    nbDetected: 0,
-    type: [
-      0,
-      0,
-      0,
-      0
-    ],
-    xc: [
-      0,
-      0,
-      0,
-      0
-    ],
-    yc: [
-      0,
-      0,
-      0,
-      0
-    ],
-    width: [
-      0,
-      0,
-      0,
-      0
-    ],
-    height: [
-      0,
-      0,
-      0,
-      0
-    ],
-    dist: [
-      0,
-      0,
-      0,
-      0
-    ],
-    orientationAngle: [
-      0,
-      0,
-      0,
-      0
-    ],
-    rotation: [
-      [
-        Object
-      ],
-      [
-        Object
-      ],
-      [
-        Object
-      ],
-      [
-        Object
-      ]
-    ],
-    translation: [
-      [
-        Object
-      ],
-      [
-        Object
-      ],
-      [
-        Object
-      ],
-      [
-        Object
-      ]
-    ],
-    cameraSource: [
-      0,
-      0,
-      0,
-      0
-    ]
-  }
-}
-{
-  header: 1432778633,
-  droneState: {
-    flying: 0,
-    videoEnabled: 0,
-    visionEnabled: 0,
-    controlAlgorithm: 0,
-    altitudeControlAlgorithm: 1,
-    startButtonState: 0,
-    controlCommandAck: 0,
-    cameraReady: 1,
-    travellingEnabled: 0,
-    usbReady: 0,
-    navdataDemo: 1,
-    navdataBootstrap: 0,
-    motorProblem: 0,
-    communicationLost: 0,
-    softwareFault: 0,
-    lowBattery: 0,
-    userEmergencyLanding: 0,
-    timerElapsed: 0,
-    MagnometerNeedsCalibration: 0,
-    anglesOutOfRange: 0,
-    tooMuchWind: 0,
-    ultrasonicSensorDeaf: 0,
-    cutoutDetected: 0,
-    picVersionNumberOk: 1,
-    atCodecThreadOn: 1,
-    navdataThreadOn: 1,
-    videoThreadOn: 1,
-    acquisitionThreadOn: 1,
-    controlWatchdogDelay: 0,
-    adcWatchdogDelay: 0,
-    comWatchdogProblem: 0,
-    emergencyLanding: 0
-  },
-  sequenceNumber: 2708,
-  visionFlag: 0
-}
-{
-  header: 1432778632,
-  droneState: {
-    flying: 0,
-    videoEnabled: 0,
-    visionEnabled: 0,
-    controlAlgorithm: 0,
-    altitudeControlAlgorithm: 1,
-    startButtonState: 0,
-    controlCommandAck: 0,
-    cameraReady: 1,
-    travellingEnabled: 0,
-    usbReady: 0,
-    navdataDemo: 1,
-    navdataBootstrap: 0,
-    motorProblem: 0,
-    communicationLost: 0,
-    softwareFault: 0,
-    lowBattery: 0,
-    userEmergencyLanding: 0,
-    timerElapsed: 0,
-    MagnometerNeedsCalibration: 0,
-    anglesOutOfRange: 0,
-    tooMuchWind: 0,
-    ultrasonicSensorDeaf: 0,
-    cutoutDetected: 0,
-    picVersionNumberOk: 1,
-    atCodecThreadOn: 1,
-    navdataThreadOn: 1,
-    videoThreadOn: 1,
-    acquisitionThreadOn: 1,
-    controlWatchdogDelay: 0,
-    adcWatchdogDelay: 0,
-    comWatchdogProblem: 0,
-    emergencyLanding: 0
-  },
-  sequenceNumber: 2709,
-  visionFlag: 0,
-  demo: {
-    controlState: 'CTRL_LANDED',
-    flyState: 'FLYING_OK',
-    batteryPercentage: 91,
-    rotation: {
-      frontBack: 2.25,
-      pitch: 2.25,
-      theta: 2.25,
-      y: 2.25,
-      leftRight: -0.612,
-      roll: -0.612,
-      phi: -0.612,
-      x: -0.612,
-      clockwise: 100.088,
-      yaw: 100.088,
-      psi: 100.088,
-      z: 100.088
-    },
-    frontBackDegrees: 2.25,
-    leftRightDegrees: -0.612,
-    clockwiseDegrees: 100.088,
-    altitude: 0,
-    altitudeMeters: 0,
-    velocity: {
-      x: 0,
-      y: 0,
-      z: 0
-    },
-    xVelocity: 0,
-    yVelocity: 0,
-    zVelocity: 0,
-    frameIndex: 0,
-    detection: {
-      camera: [
-        Object
-      ],
-      tagIndex: 0
-    },
-    drone: {
-      camera: [
-        Object
-      ]
-    }
-  },
-  visionDetect: {
-    nbDetected: 0,
-    type: [
-      0,
-      0,
-      0,
-      0
-    ],
-    xc: [
-      0,
-      0,
-      0,
-      0
-    ],
-    yc: [
-      0,
-      0,
-      0,
-      0
-    ],
-    width: [
-      0,
-      0,
-      0,
-      0
-    ],
-    height: [
-      0,
-      0,
-      0,
-      0
-    ],
-    dist: [
-      0,
-      0,
-      0,
-      0
-    ],
-    orientationAngle: [
-      0,
-      0,
-      0,
-      0
-    ],
-    rotation: [
-      [
-        Object
-      ],
-      [
-        Object
-      ],
-      [
-        Object
-      ],
-      [
-        Object
-      ]
-    ],
-    translation: [
-      [
-        Object
-      ],
-      [
-        Object
-      ],
-      [
-        Object
-      ],
-      [
-        Object
-      ]
-    ],
-    cameraSource: [
-      0,
-      0,
-      0,
-      0
-    ]
-  }
-}
-{
-  header: 1432778632,
-  droneState: {
-    flying: 0,
-    videoEnabled: 0,
-    visionEnabled: 0,
-    controlAlgorithm: 0,
-    altitudeControlAlgorithm: 1,
-    startButtonState: 0,
-    controlCommandAck: 0,
-    cameraReady: 1,
-    travellingEnabled: 0,
-    usbReady: 0,
-    navdataDemo: 1,
-    navdataBootstrap: 0,
-    motorProblem: 0,
-    communicationLost: 0,
-    softwareFault: 0,
-    lowBattery: 0,
-    userEmergencyLanding: 0,
-    timerElapsed: 0,
-    MagnometerNeedsCalibration: 0,
-    anglesOutOfRange: 0,
-    tooMuchWind: 0,
-    ultrasonicSensorDeaf: 0,
-    cutoutDetected: 0,
-    picVersionNumberOk: 1,
-    atCodecThreadOn: 1,
-    navdataThreadOn: 1,
-    videoThreadOn: 1,
-    acquisitionThreadOn: 1,
-    controlWatchdogDelay: 0,
-    adcWatchdogDelay: 0,
-    comWatchdogProblem: 0,
-    emergencyLanding: 0
-  },
-  sequenceNumber: 2710,
-  visionFlag: 0,
-  demo: {
-    controlState: 'CTRL_LANDED',
-    flyState: 'FLYING_OK',
-    batteryPercentage: 91,
-    rotation: {
-      frontBack: 2.26,
-      pitch: 2.26,
-      theta: 2.26,
-      y: 2.26,
-      leftRight: -0.608,
-      roll: -0.608,
-      phi: -0.608,
-      x: -0.608,
-      clockwise: 100.089,
-      yaw: 100.089,
-      psi: 100.089,
-      z: 100.089
-    },
-    frontBackDegrees: 2.26,
-    leftRightDegrees: -0.608,
-    clockwiseDegrees: 100.089,
-    altitude: 0,
-    altitudeMeters: 0,
-    velocity: {
-      x: 0,
-      y: 0,
-      z: 0
-    },
-    xVelocity: 0,
-    yVelocity: 0,
-    zVelocity: 0,
-    frameIndex: 0,
-    detection: {
-      camera: [
-        Object
-      ],
-      tagIndex: 0
-    },
-    drone: {
-      camera: [
-        Object
-      ]
-    }
-  },
-  visionDetect: {
-    nbDetected: 0,
-    type: [
-      0,
-      0,
-      0,
-      0
-    ],
-    xc: [
-      0,
-      0,
-      0,
-      0
-    ],
-    yc: [
-      0,
-      0,
-      0,
-      0
-    ],
-    width: [
-      0,
-      0,
-      0,
-      0
-    ],
-    height: [
-      0,
-      0,
-      0,
-      0
-    ],
-    dist: [
-      0,
-      0,
-      0,
-      0
-    ],
-    orientationAngle: [
-      0,
-      0,
-      0,
-      0
-    ],
-    rotation: [
-      [
-        Object
-      ],
-      [
-        Object
-      ],
-      [
-        Object
-      ],
-      [
-        Object
-      ]
-    ],
-    translation: [
-      [
-        Object
-      ],
-      [
-        Object
-      ],
-      [
-        Object
-      ],
-      [
-        Object
-      ]
-    ],
-    cameraSource: [
-      0,
-      0,
-      0,
-      0
-    ]
-  }
-}
-{
-  header: 1432778632,
-  droneState: {
-    flying: 0,
-    videoEnabled: 0,
-    visionEnabled: 0,
-    controlAlgorithm: 0,
-    altitudeControlAlgorithm: 1,
-    startButtonState: 0,
-    controlCommandAck: 0,
-    cameraReady: 1,
-    travellingEnabled: 0,
-    usbReady: 0,
-    navdataDemo: 1,
-    navdataBootstrap: 0,
-    motorProblem: 0,
-    communicationLost: 0,
-    softwareFault: 0,
-    lowBattery: 0,
-    userEmergencyLanding: 0,
-    timerElapsed: 0,
-    MagnometerNeedsCalibration: 0,
-    anglesOutOfRange: 0,
-    tooMuchWind: 0,
-    ultrasonicSensorDeaf: 0,
-    cutoutDetected: 0,
-    picVersionNumberOk: 1,
-    atCodecThreadOn: 1,
-    navdataThreadOn: 1,
-    videoThreadOn: 1,
-    acquisitionThreadOn: 1,
-    controlWatchdogDelay: 0,
-    adcWatchdogDelay: 0,
-    comWatchdogProblem: 0,
-    emergencyLanding: 0
-  },
-  sequenceNumber: 2711,
-  visionFlag: 0,
-  demo: {
-    controlState: 'CTRL_LANDED',
-    flyState: 'FLYING_OK',
-    batteryPercentage: 91,
-    rotation: {
-      frontBack: 2.268,
-      pitch: 2.268,
-      theta: 2.268,
-      y: 2.268,
-      leftRight: -0.603,
-      roll: -0.603,
-      phi: -0.603,
-      x: -0.603,
-      clockwise: 100.092,
-      yaw: 100.092,
-      psi: 100.092,
-      z: 100.092
-    },
-    frontBackDegrees: 2.268,
-    leftRightDegrees: -0.603,
-    clockwiseDegrees: 100.092,
-    altitude: 0,
-    altitudeMeters: 0,
-    velocity: {
-      x: 0,
-      y: 0,
-      z: 0
-    },
-    xVelocity: 0,
-    yVelocity: 0,
-    zVelocity: 0,
-    frameIndex: 0,
-    detection: {
-      camera: [
-        Object
-      ],
-      tagIndex: 0
-    },
-    drone: {
-      camera: [
-        Object
-      ]
-    }
-  },
-  visionDetect: {
-    nbDetected: 0,
-    type: [
-      0,
-      0,
-      0,
-      0
-    ],
-    xc: [
-      0,
-      0,
-      0,
-      0
-    ],
-    yc: [
-      0,
-      0,
-      0,
-      0
-    ],
-    width: [
-      0,
-      0,
-      0,
-      0
-    ],
-    height: [
-      0,
-      0,
-      0,
-      0
-    ],
-    dist: [
-      0,
-      0,
-      0,
-      0
-    ],
-    orientationAngle: [
-      0,
-      0,
-      0,
-      0
-    ],
-    rotation: [
-      [
-        Object
-      ],
-      [
-        Object
-      ],
-      [
-        Object
-      ],
-      [
-        Object
-      ]
-    ],
-    translation: [
-      [
-        Object
-      ],
-      [
-        Object
-      ],
-      [
-        Object
-      ],
-      [
-        Object
-      ]
-    ],
-    cameraSource: [
-      0,
-      0,
-      0,
-      0
-    ]
-  }
-}
-{
-  header: 1432778632,
-  droneState: {
-    flying: 0,
-    videoEnabled: 0,
-    visionEnabled: 0,
-    controlAlgorithm: 0,
-    altitudeControlAlgorithm: 1,
-    startButtonState: 0,
-    controlCommandAck: 0,
-    cameraReady: 1,
-    travellingEnabled: 0,
-    usbReady: 0,
-    navdataDemo: 1,
-    navdataBootstrap: 0,
-    motorProblem: 0,
-    communicationLost: 0,
-    softwareFault: 0,
-    lowBattery: 0,
-    userEmergencyLanding: 0,
-    timerElapsed: 0,
-    MagnometerNeedsCalibration: 0,
-    anglesOutOfRange: 0,
-    tooMuchWind: 0,
-    ultrasonicSensorDeaf: 0,
-    cutoutDetected: 0,
-    picVersionNumberOk: 1,
-    atCodecThreadOn: 1,
-    navdataThreadOn: 1,
-    videoThreadOn: 1,
-    acquisitionThreadOn: 1,
-    controlWatchdogDelay: 0,
-    adcWatchdogDelay: 0,
-    comWatchdogProblem: 0,
-    emergencyLanding: 0
-  },
-  sequenceNumber: 2712,
-  visionFlag: 0,
-  demo: {
-    controlState: 'CTRL_LANDED',
-    flyState: 'FLYING_OK',
-    batteryPercentage: 91,
-    rotation: {
-      frontBack: 2.279,
-      pitch: 2.279,
-      theta: 2.279,
-      y: 2.279,
-      leftRight: -0.601,
-      roll: -0.601,
-      phi: -0.601,
-      x: -0.601,
-      clockwise: 100.096,
-      yaw: 100.096,
-      psi: 100.096,
-      z: 100.096
-    },
-    frontBackDegrees: 2.279,
-    leftRightDegrees: -0.601,
-    clockwiseDegrees: 100.096,
-    altitude: 0,
-    altitudeMeters: 0,
-    velocity: {
-      x: 0,
-      y: 0,
-      z: 0
-    },
-    xVelocity: 0,
-    yVelocity: 0,
-    zVelocity: 0,
-    frameIndex: 0,
-    detection: {
-      camera: [
-        Object
-      ],
-      tagIndex: 0
-    },
-    drone: {
-      camera: [
-        Object
-      ]
-    }
-  },
-  visionDetect: {
-    nbDetected: 0,
-    type: [
-      0,
-      0,
-      0,
-      0
-    ],
-    xc: [
-      0,
-      0,
-      0,
-      0
-    ],
-    yc: [
-      0,
-      0,
-      0,
-      0
-    ],
-    width: [
-      0,
-      0,
-      0,
-      0
-    ],
-    height: [
-      0,
-      0,
-      0,
-      0
-    ],
-    dist: [
-      0,
-      0,
-      0,
-      0
-    ],
-    orientationAngle: [
-      0,
-      0,
-      0,
-      0
-    ],
-    rotation: [
-      [
-        Object
-      ],
-      [
-        Object
-      ],
-      [
-        Object
-      ],
-      [
-        Object
-      ]
-    ],
-    translation: [
-      [
-        Object
-      ],
-      [
-        Object
-      ],
-      [
-        Object
-      ],
-      [
-        Object
-      ]
-    ],
-    cameraSource: [
+    "cameraSource": [
       0,
       0,
       0,

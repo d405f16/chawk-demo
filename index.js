@@ -1,9 +1,9 @@
-var arDrone = require('ar-drone');
-var client = arDrone.createClient();
+var drone = require('./functions');
 
-client.on('navdata', function (e) {
-	if(e.demo) {
-		console.log(e.demo.batteryPercentage)
-		console.log(e.demo.altitude)
-	}
+drone.takeoff(function () {
+    drone.fly({speed: 0.5, time: 10, direction: 'front'}, function () {
+        drone.rotate({speed: .5, time: 5, direction: 'cw'}, function () {
+
+        })
+    });
 });
